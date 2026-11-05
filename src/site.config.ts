@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
-	author: "Your Name",
+	author: "ndtduy",
 	date: {
 		locale: "en-US",
 		options: {
@@ -12,17 +12,17 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	description:
-		"A minimal personal blog & writing space, built with Astro. Notes on whatever I happen to be thinking about — usually some mix of code, design, and the occasional half-formed idea. Replace this paragraph in src/site.config.ts to make the site your own.",
+		"Hi there!",
 	lang: "en-US",
 	ogLocale: "en_US",
 	sortPostsByUpdatedDate: false,
-	title: "Astro Sienna",
+	title: "Duy Nguyen D. T.",
 	hideThemeCredit: false,
 	profile: {
-		name: "John Doe",
-		email: "john@example.com",
-		github: "https://github.com/example",
-		linkedin: "https://www.linkedin.com/in/example/",
+		name: "Nguyen Dang Tuong Duy",
+		email: "ndtduy061003@gmail.com",
+		github: "https://github.com/ndtduy",
+		linkedin: "https://www.linkedin.com/in/ndtduy0610",
 		jobTitle: "Software Engineer",
 		employer: "Example Inc.",
 		employerUrl: "https://example.com",
@@ -48,13 +48,13 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/",
 		title: "Home",
 	},
-	{
+	/*{
 		path: "/posts/",
 		title: "Posts",
-	},
+	},*/
 	{
 		path: "/showcase/",
-		title: "Showcase",
+		title: "Projects",
 	},
 	{
 		path: "/about/",

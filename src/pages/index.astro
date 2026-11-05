@@ -66,14 +66,19 @@ const siteUrl = (path: string) => absoluteUrl(path, Astro.site);
 			)}
 			{profile?.email && (
 				<>
-					<a href={`mailto:${profile.email}`}>Email</a>
+					<a href={`mailto:${profile.email}`}>Email: <code><strong>ndtduy061003</strong> at <strong>gmail</strong> dot <strong>com</strong></code></a>
 					<span class="sep">·</span>
 				</>
 			)}
-			<a href={withBase("/rss.xml")}>RSS</a>
+			<!-- <>
+				<a href={withBase("/rss.xml")}>RSS</a>
+				<span class="sep">·</span>
+			</> -->
+			<a href={withBase("/Inference Engineering.pdf")}>CV</a>
 		</div>
 	</section>
 
+	<!--
 	<section class="writing" aria-labelledby="writing-label">
 		<div class="section-label" id="writing-label">Writing</div>
 		<div class="timeline">
@@ -134,12 +139,13 @@ const siteUrl = (path: string) => absoluteUrl(path, Astro.site);
 			</ul>
 		</section>
 	)}
+	-->
 </PageLayout>
 
 <style>
 	/* ---------- Hero ---------- */
 	.hero {
-		margin-bottom: 76px;
+		margin-bottom: 5px;
 	}
 	.hero p {
 		font-size: 19.5px;
