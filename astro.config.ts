@@ -73,7 +73,7 @@ export default defineConfig({
 			name: siteConfig.title,
 			description: siteConfig.description,
 			lang: siteConfig.lang,
-			icon: "public/icon.png",
+			icon: "public/32.svg",
 			icons: [
 				{
 					src: "icons/apple-touch-icon.png",
