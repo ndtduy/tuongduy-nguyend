@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
-	author: "ndtduy",
+	author: "Nguyễn Đặng Tường Duy",
 	date: {
 		locale: "en-US",
 		options: {
@@ -55,6 +55,10 @@ export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/showcase/",
 		title: "Projects",
+	},
+	{
+		path: "/publication/",
+		title: "Publication",
 	},
 	{
 		path: "/about/",
